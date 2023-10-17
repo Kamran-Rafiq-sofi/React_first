@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
+        {/*<p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <a
@@ -16,8 +16,17 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
-        </a>
+        </a> */}
+        <h1>Hello! World</h1>
+        <p> This is my first react app using create-react-app method</p>
+      <ul>
+        <li>Create folder</li>
+        <li>enter folder</li>
+        <li>create react app</li>
+        <li>use npm start to start the project</li>
+      </ul>
       </header>
+      
     </div>
   );
 }
